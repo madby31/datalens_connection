@@ -5,13 +5,13 @@
 
 ```mermaid
 graph TD;
-    A[CSV]-->D{Python script};
-    B[XLSX]-->D{Python script};
-    C(Task Scheduler)-->D{Python script};
-    D{Python script}<-->E(Backup table);
-    D{Python script}-->F(Yandex Object Storage);
-    F(Yandex Object Storage)-->G(Yandex Query);
-    G(Yandex Query)-->H(Yandex DataLens);
+    A[CSV] --> D{Python script};
+    B[XLSX] --> D;
+    C(Task Scheduler) --> D;
+    D --> E[Backup table];
+    D ----> F(Yandex Object Storage);
+    F --> G(Yandex Query);
+    G --> H(Yandex DataLens);
     
 ```
 
@@ -22,6 +22,6 @@ graph TD;
 * [Yandex Query](https://cloud.yandex.ru/services/query)
 * [Yandex DataLens](https://cloud.yandex.ru/docs/datalens/)
 
-По стоимости сервисов Yandex:
+:octocat: По стоимости сервисов Yandex:
 
 [Уровень нетарифицируемого использования (free tier) для сервисов экосистемы бессерверных вычислений](https://cloud.yandex.ru/docs/billing/concepts/serverless-free-tier)
