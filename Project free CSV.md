@@ -5,8 +5,9 @@
 
 ```mermaid
 graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
+    A[CSV]-->C{Python script};
+    B[XLSX]-->C{Python script};
+    C{Python script}-->D(Yandex Object Storage);
+    D(Yandex Object Storage)-->E(Yandex Query);
+    E(Yandex Query)-->F(Yandex DataLens);
 ```
