@@ -25,3 +25,6 @@ graph TD;
 :octocat: По стоимости сервисов Yandex:
 
 [Уровень нетарифицируемого использования (free tier) для сервисов экосистемы бессерверных вычислений](https://cloud.yandex.ru/docs/billing/concepts/serverless-free-tier)
+
+Разсширение:
+[Создание таймера, который вызывает функцию Cloud Functions](https://cloud.yandex.ru/docs/functions/operations/trigger/timer-create)
