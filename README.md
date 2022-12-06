@@ -1,6 +1,7 @@
 # Аналитика в Yandex DataLens в пределах CSV
 
  * [Загрузка CSV через Yandex Cloud](#загрузка-csv-через-yandex-cloud)
+    + [Yandex Object Storage](#yandex-object-storage)
  * [Две таблицы из Google Sheets (Гугл Таблиц) через CSV](#две-таблицы-из-google-sheets-гугл-таблиц-через-csv)
     + [Создание дашборда](#создание-дашборда)
     + [Обновление CSV](#обновление-csv)
