@@ -2,6 +2,8 @@
 
  * [Загрузка CSV через Yandex Cloud](#загрузка-csv-через-yandex-cloud)
     + [Yandex Object Storage](#yandex-object-storage)
+    + [Yandex Query](#yandex-query)
+    + [Yandex Datalens](#yandex-datalens)
  * [Две таблицы из Google Sheets (Гугл Таблиц) через CSV](#две-таблицы-из-google-sheets-гугл-таблиц-через-csv)
     + [Создание дашборда](#создание-дашборда)
     + [Обновление CSV](#обновление-csv)
